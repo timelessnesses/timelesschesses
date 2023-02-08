@@ -19,7 +19,7 @@ class Recorder:
         
     def export(self):
         for frame in self.frames:
-            pic = cv2.resize(frame, tuple(reversed(frame.shape[:2])))
+            pic = cv2.resize(frame, frame.shape[:2][::-1])
             pic = cv2.cvtColor(pic, cv2.COLOR_BGR2RGB)
             cv2.imshow("frame",pic)
             cv2.waitKey(1)
