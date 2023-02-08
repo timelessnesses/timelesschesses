@@ -1,0 +1,20 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2023.01.21"]
+[Round "?"]
+[White "timelessnesseses"]
+[Black "serejkatop228"]
+[Result "0-1"]
+[ECO "C40"]
+[WhiteElo "206"]
+[BlackElo "228"]
+[TimeControl "600"]
+[EndTime "1:23:54 PST"]
+[Termination "serejkatop228 won by checkmate"]
+
+1. e4 e5 2. Nf3 Bb4 3. c3 Ba5 4. b4 Nf6 5. bxa5 b6 6. Nxe5 Nxe4 7. f3 Nd6 8. Nc4
+Nxc4 9. d3 Ne5 10. f4 Ng6 11. Qh5 Nxf4 12. g3 Nxh5 13. g4 Nf6 14. g5 Nh5 15. Be2
+Nf6 16. gxf6 gxf6 17. Rf1 bxa5 18. Rxf6 Qxf6 19. Bg4 Qg7 20. Bf3 Qg1+ 21. Kd2
+Rg8 22. Be4 Qxh2+ 23. Ke3 Qh3+ 24. Kd4 Nc6+ 25. Kd5 Qh5+ 26. Kc4 Rg4 27. d4 Rxe4
+28. Nd2 Re1 29. Rb1 Nxd4 30. Kxd4 Qh4+ 31. Ne4 Rxe4+ 32. Kc5 Rb8 33. Bg5 Qxg5#
+0-1
