@@ -1,3 +1,1 @@
-from .game import main  
-
-main()
+from . import cli

@@ -11,6 +11,7 @@ chess = "^1.9.4"
 pygame = "^2.1.2"
 vidmaker = "^2.3.0"
 opencv-contrib-python = "^4.7.0.68"
+moviepy = "^1.0.3"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.1.0"
