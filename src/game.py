@@ -5,7 +5,8 @@ With dynamic board size. depends on window and also resize it's element
 
 import pygame
 import sys
-from .chess import Chess
+import chess.pgn
+import chess
 import io
 from .recorder import Recorder, ExportMethod
 import os.path

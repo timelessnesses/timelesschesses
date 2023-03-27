@@ -18,4 +18,7 @@ all:
 
 init: # install dependencies
 	poetry install
-	
+
+build: # build entire project
+	poetry install
+	$(PYTHON) -m nuitka --standalone --follow-imports --warn-implicit-exceptions --warn-unusual-code --show-scons --show-progress --enable-console --company-name="timelessnesses projects" --product-name="timelesschesses" --file-description="A chess replay renderer" --file-version="0.0.1" ./launcher.py

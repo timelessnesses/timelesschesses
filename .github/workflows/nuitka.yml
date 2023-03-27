@@ -1,0 +1,30 @@
+name: Build With Nuitka
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions: write-all
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install poetry
+      run: pip install poetry
+
+    - name: Build With Nuitka
+      run: make build
+
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: launcher.dist
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
